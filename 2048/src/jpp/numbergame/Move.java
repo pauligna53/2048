@@ -1,7 +1,8 @@
 package jpp.numbergame;
 
 import java.util.Objects;
-
+//the class represents the movement of a tile on the game field. A coordinate for the initial position and one for the goal position are being saved, 
+//aswell as the value of the tile before and after the movement
 public class Move {
     Coordinate2D from;
     Coordinate2D to;
