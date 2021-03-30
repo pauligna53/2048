@@ -1,7 +1,7 @@
 package jpp.numbergame;
 
 import java.util.Objects;
-
+//the class implements a single tile, with its coordinate and value
 public class Tile {
 
     Coordinate2D coord;
