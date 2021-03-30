@@ -24,28 +24,6 @@ public class NumberGui extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("2048");
-        primaryStage.setWidth(500);
-        primaryStage.setHeight(500);
-        primaryStage.show();
-
-        VBox parent = new VBox();
-        Scene scene1 = new Scene(parent);
-        primaryStage.setScene(scene1);
+        
     }
-    /*
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("My typa title");
-        button = new Button();
-        button.setText("Click me");
-
-         StackPane layout = new StackPane();
-         layout.getChildren().add(button);
-
-         Scene scene = new Scene(layout, 300,250);
-         primaryStage.setScene(scene);
-         primaryStage.show();
-    }
-    */
 }
