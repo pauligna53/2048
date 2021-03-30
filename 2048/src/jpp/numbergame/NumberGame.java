@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Random;
-
+//the class represents the actual game. It contains the current state of the field and performs the turns of the player, a turn being a movement in one of the 4 directions.
 public class NumberGame {
     int width;
     int height;
@@ -102,7 +102,7 @@ public class NumberGame {
         tiles[x][y] = new Tile(coordinate2D,value);
         return new Tile(coordinate2D,value);
     }
-
+//performs a turn,moving all tiles in the given direction. It returns a list containing the movement of each tile.
     public List<Move> move(Direction dir){
         List<Move> out = new ArrayList<>();
         int startHere;
